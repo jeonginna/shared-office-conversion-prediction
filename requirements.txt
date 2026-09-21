@@ -1,0 +1,26 @@
+# Office Trial Conversion — dependencies
+# Python 3.10+
+#
+# 설치: pip install -r requirements.txt
+# 앱 실행: streamlit run streamlit_app.py
+
+# --- 데이터 처리 ---
+pandas
+numpy
+
+# --- 시각화 ---
+matplotlib
+seaborn
+koreanize-matplotlib
+plotly                 # Optuna 탐색 과정 시각화 (앱)
+
+# --- 모델링 ---
+scikit-learn
+xgboost                # 최종 모델
+lightgbm               # 비교 모델
+catboost               # 비교 모델
+optuna                 # 하이퍼파라미터 튜닝
+shap                   # 변수 기여도 · 개인화 문구 매핑
+
+# --- 앱 ---
+streamlit
