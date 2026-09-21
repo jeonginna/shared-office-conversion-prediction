@@ -1,0 +1,23 @@
+# 원본 데이터 (공개 금지)
+data/
+*.csv
+*.xlsx
+*.parquet
+
+# Streamlit 메일 계정 정보
+.streamlit/secrets.toml
+
+# 모델 산출물
+*.pkl
+*.joblib
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
